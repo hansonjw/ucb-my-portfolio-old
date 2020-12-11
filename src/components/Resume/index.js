@@ -1,14 +1,14 @@
 import React from 'react';
 import annie1 from "../../assets/annie1.jpeg";
 
-function About() {
+function Resume() {
 
     return(
         <section>
-            <div>this is the About Page</div>
+            <div>this is the RESUME section</div>
             <img src={annie1} />
         </section>
     )
 }
 
-export default About;
+export default Resume;

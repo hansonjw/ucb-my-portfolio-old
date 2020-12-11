@@ -3,30 +3,36 @@ import './App.css';
 import Page from './components/Page';
 import Nav from './components/Nav';
 import About from './components/About';
+import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
+import Resume from './components/Resume'
 
 function App() {
   // define primary navigation options, this is an Array of Objects
   const [navOptions] = useState([
     {
-      key: 'about',
-      text: 'About me',
-      description: 'some random text',
+      id: 'about',
+      text: 'About Me',
+      description: 'This is the ABOUT page...have a nice day',
       component: <About></About>
     },
     {
-      key: 'portfolio',
+      id: 'portfolio',
       text: 'Portfolio',
-      description: 'some random text'
+      description: 'This is the PORTFOLIO page...',
+      component:<Portfolio></Portfolio>
     },
     {
-      key: 'contact',
+      id: 'contact',
       text: 'Contact',
-      description: 'some random text'
+      description: 'this is the CONTACT page...hello is this working??',
+      component:<Contact></Contact>
     },
     {
-      key: 'resume',
+      id: 'resume',
       text: 'Resume',
-      description: 'some random text'
+      description: 'this is the RESUME page...under construction...',
+      component: <Resume></Resume>
     }
   ]);
 
