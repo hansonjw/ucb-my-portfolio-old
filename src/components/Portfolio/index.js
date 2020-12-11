@@ -55,12 +55,10 @@ function Portfolio() {
             {projects.map((project) => (
                 <div>
                     <img src={project.image} />
-                    <a href={project.url}>link to site</a>
-                    <a href={project.git}>github repo</a>
+                    <a href={project.url}>link</a>
+                    <a href={project.git}>github</a>
                 </div>
             ))}
-            <img src={annie1} />
-            <img src={anImage} />
         </div>
     )
 }
