@@ -2,6 +2,7 @@
 
 body {
   margin: 0;
+  padding-top: 70px;
   background-color: #333333;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -30,6 +31,13 @@ code {
 
 .img-portfolio {
   max-width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-about {
+  max-width: 300px;
   display: block;
   margin-left: auto;
   margin-right: auto;

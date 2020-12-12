@@ -45,8 +45,8 @@ function Portfolio() {
         },
         {
             id: 'stocks',
-            url: 'https://github.com/aadi1988/Common-Capitalism',
-            git: 'https://aadi1988.github.io/Common-Capitalism/',
+            url: 'https://aadi1988.github.io/Common-Capitalism/',
+            git: 'https://github.com/aadi1988/Common-Capitalism',
             image: stocks,
             title: "Common Capitalism",
             description: "Lorem Ipsum"
@@ -73,8 +73,8 @@ function Portfolio() {
                             <div class="card-body flex-box">
                                 <h5 class="card-title">{project.title}</h5>
                                 <p class="card-text">{project.description}</p>
-                                <a href={project.url} class="card-link m-3">Website</a>
-                                <a href={project.git} class="card-link m-3">GitHub</a>
+                                <a href={project.url} class="card-link m-3" target="_blank">Website</a>
+                                <a href={project.git} class="card-link m-3" target="_blank">GitHub</a>
                             </div>
                         </div>
                     </div>

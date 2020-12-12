@@ -6,9 +6,9 @@ function Page(props) {
 
     const { currentOption } = props;
     return(
-        <section>
+        <container>
             {currentOption.component}
-        </section>
+        </container>
     )
 }
 
