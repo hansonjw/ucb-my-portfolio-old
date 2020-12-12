@@ -87,7 +87,9 @@ Portfolio
 
 Contact:
 - Form
-- This is going to be hard
+- name
+- email address
+- message
 
 Resume
 - Link to downloadable file
