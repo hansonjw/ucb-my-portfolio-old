@@ -40,6 +40,7 @@ function App() {
   const [currentOption, setCurrentOption] = useState(navOptions[0]);
 
   return (
+
     <div>
       <Nav
         navOptions = {navOptions}
