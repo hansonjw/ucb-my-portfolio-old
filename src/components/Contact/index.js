@@ -27,6 +27,9 @@ class Contact extends React.Component {
     handleSubmit(event) {
         alert('message transmitted and message recieved')
         event.preventDefault();
+        console.log(this.state.name);
+        console.log(this.state.email);
+        console.log(this.state.message);
     }
 
     render() {
@@ -52,6 +55,7 @@ class Contact extends React.Component {
                 </form>
             </div>
         )
+
     }
 }
 
