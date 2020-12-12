@@ -9,7 +9,6 @@ function Page(props) {
         <section>
             <h1>{currentOption.text}</h1>
             <p>{currentOption.description}</p>
-            {currentOption.id}
             {currentOption.component}
         </section>
     )

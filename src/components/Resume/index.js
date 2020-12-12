@@ -1,12 +1,15 @@
 import React from 'react';
-import annie1 from "../../assets/annie1.jpeg";
+import resumeimage from "../../assets/resumeimage.png";
+import resume from "../../assets/resume.pdf"
 
 function Resume() {
 
     return(
         <section>
             <div>this is the RESUME section</div>
-            <img src={annie1} />
+            <a href={resume} download='resume-Justin-Hanson'>
+                <img src={resumeimage} />
+            </a>
         </section>
     )
 }

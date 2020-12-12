@@ -1,6 +1,4 @@
 import React from 'react';
-import annie1 from "../../assets/annie1.jpeg";
-import anImage from "../../assets/me.jpeg";
 
 import investing from '../../assets/investing.png';
 import note from '../../assets/note.png';

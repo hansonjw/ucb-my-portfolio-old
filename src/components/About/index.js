@@ -1,12 +1,14 @@
 import React from 'react';
-import annie1 from "../../assets/annie1.jpeg";
+import me from "../../assets/me.jpeg";
 
 function About() {
 
     return(
         <section>
-            <div>this is the About Page</div>
-            <img src={annie1} />
+            <img src={me} />
+            <p>
+                This si some text about me and how wonderful I am!!
+            </p>
         </section>
     )
 }
