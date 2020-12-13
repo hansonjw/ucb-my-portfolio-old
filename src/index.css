@@ -13,6 +13,11 @@ main {
   color:#808080;
 }
 
+footer {
+  background-color:#212529;
+  color:#808080;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -23,7 +28,7 @@ code {
 }
 
 .navSelected {
-  color: red;
+  color: #800000;
   font-weight: bold;
 }
 
@@ -77,15 +82,33 @@ code {
 }
 
 .btn-contact {
-  margin: 1%;
   background-color: #212529;
   color: #808080;
   border: none;
   outline: none;
-  width: 10%;
+  width: 100%;
+  border-radius: 5px;
+  padding: 1%;
+}
+
+.btn-contact:active{
+  background-color:#212529;
+  color:#800000;
 }
 
 .form-control {
   background-color: #808080;
   border-color: #212529;
+}
+
+.links {
+  color:#808080;
+}
+
+.links:active {
+  color:#800000;
+}
+
+.links:hover {
+  color:white;
 }

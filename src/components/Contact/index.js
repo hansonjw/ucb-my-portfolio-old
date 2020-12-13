@@ -46,9 +46,11 @@ class Contact extends React.Component {
                     </div>
                     <div class="form-group">
                         <label for="messageInput">Message:</label>
-                        <textarea name="message" class="form-control" id="messageInput" value={this.state.message} onChange={this.handleChange} />
+                        <textarea name="message" class="form-control" rows="5" id="messageInput" value={this.state.message} onChange={this.handleChange} />
                     </div>
+                    <div class="form-group py-3 btn-contact-container">
                         <input type="submit" class="btn-contact" />
+                    </div>
                 </form>
             </div>
         )

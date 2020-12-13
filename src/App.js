@@ -5,6 +5,7 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 import Resume from './components/Resume'
 
 function App() {
@@ -40,7 +41,6 @@ function App() {
   const [currentOption, setCurrentOption] = useState(navOptions[0]);
 
   return (
-
     <div>
       <Nav
         navOptions = {navOptions}
@@ -52,9 +52,7 @@ function App() {
           currentOption = {currentOption}
         ></Page>
       </main>
-      <footer>
-        This is the footer
-      </footer>
+      <Footer></Footer>
     </div>
   );
 }
