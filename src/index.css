@@ -1,5 +1,3 @@
-
-
 body {
   margin: 0;
   padding-top: 70px;
@@ -41,4 +39,25 @@ code {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.img-download {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.img-resume {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.p-resume {
+  display: block;
+  margin: auto;
 }
