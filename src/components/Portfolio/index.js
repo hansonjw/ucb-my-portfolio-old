@@ -65,7 +65,7 @@ function Portfolio() {
         <div class="container">
             {projects.map((project) => (
                 <div class="card m-3">
-                    <div class="row">
+                    <div class="row item-portfolio">
                         <div class="col-3">
                             <img src={project.image} class="card-img m-3 rounded-5 img-portfolio"/>
                         </div>

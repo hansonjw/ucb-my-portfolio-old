@@ -8,7 +8,7 @@ function Resume() {
 
     return(
         <div class="container">
-            <div class="row px-5">
+            <div class="row mx-5">
                 <div class="col-lg-2 mx-auto">
                     <a href={resume} class="mx-auto" download='resume-Justin-Hanson'><img src={iconDownload} class="img-download" /></a> 
                 </div>

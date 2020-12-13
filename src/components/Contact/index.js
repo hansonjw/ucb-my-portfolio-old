@@ -34,24 +34,21 @@ class Contact extends React.Component {
 
     render() {
         return(
-            <div>
-                <section>
-                    <div>this is the CONTACT section</div>
-                </section>
+            <div class="container form-contact">
                 <form onSubmit={this.handleSubmit}>
-                    <label>
-                        Name:
-                        <input type="text" name="name" value={this.state.name} onChange={this.handleChange} />
-                    </label>
-                    <label>
-                        Email:
-                        <input type="email" name="email" value={this.state.email} onChange={this.handleChange} />
-                    </label>
-                    <label>
-                        Message:
-                        <textarea name="message" value={this.state.message} onChange={this.handleChange} />
-                    </label>
-                    <input type="submit" />
+                    <div class="form-group">
+                        <label for="nameInput">Name:</label>
+                        <input type="text" class="form-control" name="name" id="nameInput" value={this.state.name} onChange={this.handleChange} />
+                    </div>
+                    <div class="form-group">
+                        <label for="emailInput">Email:</label>
+                        <input type="email" class="form-control" name="email" id='emailInput' value={this.state.email} onChange={this.handleChange} />
+                    </div>
+                    <div class="form-group">
+                        <label for="messageInput">Message:</label>
+                        <textarea name="message" class="form-control" id="messageInput" value={this.state.message} onChange={this.handleChange} />
+                    </div>
+                        <input type="submit" class="btn-contact" />
                 </form>
             </div>
         )

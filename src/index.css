@@ -61,3 +61,31 @@ code {
   display: block;
   margin: auto;
 }
+
+.item-portfolio {
+  background-color: #333333;
+  margin: 2px;
+}
+
+.card {
+  background-color: #808080;
+}
+
+.form-contact {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.btn-contact {
+  margin: 1%;
+  background-color: #212529;
+  color: #808080;
+  border: none;
+  outline: none;
+  width: 10%;
+}
+
+.form-control {
+  background-color: #808080;
+  border-color: #212529;
+}
