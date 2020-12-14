@@ -32,6 +32,10 @@ code {
   font-weight: bold;
 }
 
+.navlinks:hover {
+  color:white;
+}
+
 .img-portfolio {
   max-width: 200px;
   display: block;
@@ -64,7 +68,8 @@ code {
 
 .p-resume {
   display: block;
-  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 .item-portfolio {
@@ -103,6 +108,7 @@ code {
 
 .links {
   color:#808080;
+  text-decoration: none;
 }
 
 .links:active {
@@ -111,4 +117,5 @@ code {
 
 .links:hover {
   color:white;
+  text-decoration: underline;
 }

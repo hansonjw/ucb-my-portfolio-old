@@ -8,15 +8,10 @@ function Resume() {
 
     return(
         <div class="container">
-            <div class="row mx-5">
-                <div class="col-lg-2 mx-auto">
-                    <a href={resume} class="mx-auto" download='resume-Justin-Hanson'><img src={iconDownload} class="img-download" /></a> 
-                </div>
-                <div class="col-lg-10 my-auto">
-                    <p class="p-resume">
-                        Please click the icon to download a pdf copy of my resume.  Thank you for visiting my site.
-                    </p>
-                </div>
+            <div class="row px-auto">
+                <p class="p-resume text-center">
+                <a class="links" href={resume} download='resume-Justin-Hanson'>Please click here to download a pdf copy of my resume.  Thank you for visiting my site.</a> 
+                </p>
             </div>
             <div class="row">
                 <div class="col-lg-6">

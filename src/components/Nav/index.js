@@ -18,7 +18,7 @@ function Nav(props) {
                             {navOptions.map((navOption) => (
                                 <div class="nav-item col-6 col-md-auto px-5">
                                     <li
-                                        className={ `${currentOption === navOption && 'navSelected'}`}
+                                        className={ `${currentOption === navOption && 'navSelected'} navlinks`}
                                     >
                                         <span
                                             onClick={() => {

@@ -6,7 +6,6 @@ import blog from '../../assets/blog.png';
 import run from '../../assets/run.png';
 import stocks from '../../assets/stocks.png';
 import weather from '../../assets/weather.png';
-import githubIcon from '../../assets/icon-github.png';
 
 function Portfolio() {
 
@@ -25,7 +24,7 @@ function Portfolio() {
             git: 'https://github.com/hansonjw/mini-eureka',
             image: note,
             title: "Note Taker",
-            description: "Lorem Ipsum"
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu bibendum at varius vel pharetra vel tupis nunc. Pharetra sit amet aliquam id diam maecenas ultricies. Magna eget est lorem ipsum dolor. Ut tristique et egestas quis. Turpis egestas pretium aenean pharetra magna. Nullam vehicula ipsum a arcu. Mus mauris vitae ultricies leo integer malesuada."
         },
         {
             id: 'blog',
@@ -33,7 +32,7 @@ function Portfolio() {
             git: 'https://github.com/hansonjw/tech-blog',
             image: blog,
             title: "Tech Blog",
-            description: "Lorem Ipsum"
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu bibendum at varius vel pharetra vel tupis nunc. Pharetra sit amet aliquam id diam maecenas ultricies. Magna eget est lorem ipsum dolor. Ut tristique et egestas quis. Turpis egestas pretium aenean pharetra magna. Nullam vehicula ipsum a arcu. Mus mauris vitae ultricies leo integer malesuada."
         },
         {
             id: 'run',
@@ -41,7 +40,7 @@ function Portfolio() {
             git: 'https://github.com/hansonjw/run-buddy',
             image: run,
             title: "Run Buddy",
-            description: "Lorem Ipsum"
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu bibendum at varius vel pharetra vel tupis nunc. Pharetra sit amet aliquam id diam maecenas ultricies. Magna eget est lorem ipsum dolor. Ut tristique et egestas quis. Turpis egestas pretium aenean pharetra magna. Nullam vehicula ipsum a arcu. Mus mauris vitae ultricies leo integer malesuada."
         },
         {
             id: 'stocks',
@@ -49,7 +48,7 @@ function Portfolio() {
             git: 'https://github.com/aadi1988/Common-Capitalism',
             image: stocks,
             title: "Common Capitalism",
-            description: "Lorem Ipsum"
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu bibendum at varius vel pharetra vel tupis nunc. Pharetra sit amet aliquam id diam maecenas ultricies. Magna eget est lorem ipsum dolor. Ut tristique et egestas quis. Turpis egestas pretium aenean pharetra magna. Nullam vehicula ipsum a arcu. Mus mauris vitae ultricies leo integer malesuada."
         },
         {
             id: 'weather',
@@ -57,7 +56,7 @@ function Portfolio() {
             git: 'https://github.com/hansonjw/weatherdashboard',
             image: weather,
             title: "Weather",
-            description: "Lorem Ipsum"
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu bibendum at varius vel pharetra vel tupis nunc. Pharetra sit amet aliquam id diam maecenas ultricies. Magna eget est lorem ipsum dolor. Ut tristique et egestas quis. Turpis egestas pretium aenean pharetra magna. Nullam vehicula ipsum a arcu. Mus mauris vitae ultricies leo integer malesuada."
         }
     ]
 
@@ -73,8 +72,8 @@ function Portfolio() {
                             <div class="card-body flex-box">
                                 <h5 class="card-title">{project.title}</h5>
                                 <p class="card-text">{project.description}</p>
-                                <a href={project.url} class="card-link m-3" target="_blank">Website</a>
-                                <a href={project.git} class="card-link m-3" target="_blank">GitHub</a>
+                                <a href={project.url} class="links card-link m-3" target="_blank">Website</a>
+                                <a href={project.git} class="links card-link m-3" target="_blank">GitHub</a>
                             </div>
                         </div>
                     </div>

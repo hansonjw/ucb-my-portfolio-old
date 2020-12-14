@@ -7,7 +7,7 @@ function Footer() {
     <footer>
         <nav class="container-xxl felx-wrap flex-md-nowrap" aria-label="Main navigation">
             <div class="navbar-expand">
-                <div class="navbar-nav flex-row flex-wrap bd-navbar-nav mx-auto py-md-0">
+                <div class="navbar-nav flex-row flex-wrap bd-navbar-nav mx-auto py-md-0 justify-content-center">
                     <div class="nav-item col-md-auto px-5 py-2 links">
                         <a class="links" href="https://www.linkedin.com/in/justinhanson1/" target="_blank">Linked In</a>
                     </div>
