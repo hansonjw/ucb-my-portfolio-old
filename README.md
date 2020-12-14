@@ -4,7 +4,7 @@ No license is applicable for this application
 ## Description
 This is a portfolio of applications that I have developed throughout the course of the UCB coding bootcamp, July 2020 cohort.
 
-![screenshot](./src/assets/site.png)
+![screenshot](./src/assets/screenshot-about.png)
 
 ## Table of Contents
 [Installation Instructions](#installation)  
@@ -13,6 +13,7 @@ This is a portfolio of applications that I have developed throughout the course 
 [License Information](#license)  
 [Questions](#questions)  
 [Design/Requirements](#requirements)
+[More Screenshots](#screenshots)
 
 ## Installation
 Please access the website at the following link:
@@ -69,3 +70,9 @@ Footer
 - GitHub
 - LinkedIn
 - Third Platform (twitter?)
+
+## Screenshots
+![screenshot](./src/assets/screenshot-about.png)
+![screenshot](./src/assets/screenshot-portfolio.png)
+![screenshot](./src/assets/screenshot-resume.png)
+![screenshot](./src/assets/screenshot-contact.png)
