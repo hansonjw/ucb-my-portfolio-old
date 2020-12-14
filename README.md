@@ -4,8 +4,7 @@ No license is applicable for this application
 ## Description
 This is a portfolio of applications that I have developed throughout the course of the UCB coding bootcamp, July 2020 cohort.
 
-![screenshot]
-(./src/assets/site.png)
+![screenshot](./src/assets/site.png)
 
 ## Table of Contents
 [Installation Instructions](#installation)  
