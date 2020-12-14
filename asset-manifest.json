@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.7112f1b7.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.78123c40.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.78123c40.chunk.js.map",
+    "runtime-main.js": "/my-portfolio/static/js/runtime-main.e3f22a61.js",
+    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.e3f22a61.js.map",
+    "static/js/2.14fa4314.chunk.js": "/my-portfolio/static/js/2.14fa4314.chunk.js",
+    "static/js/2.14fa4314.chunk.js.map": "/my-portfolio/static/js/2.14fa4314.chunk.js.map",
+    "static/js/3.75e9d566.chunk.js": "/my-portfolio/static/js/3.75e9d566.chunk.js",
+    "static/js/3.75e9d566.chunk.js.map": "/my-portfolio/static/js/3.75e9d566.chunk.js.map",
+    "index.html": "/my-portfolio/index.html",
+    "static/css/main.7112f1b7.chunk.css.map": "/my-portfolio/static/css/main.7112f1b7.chunk.css.map",
+    "static/js/2.14fa4314.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.14fa4314.chunk.js.LICENSE.txt",
+    "static/media/annie1.d8a4e6e7.jpeg": "/my-portfolio/static/media/annie1.d8a4e6e7.jpeg",
+    "static/media/iconDownload.9af0909a.svg": "/my-portfolio/static/media/iconDownload.9af0909a.svg",
+    "static/media/investing.34add43e.png": "/my-portfolio/static/media/investing.34add43e.png",
+    "static/media/me.52836355.jpeg": "/my-portfolio/static/media/me.52836355.jpeg",
+    "static/media/note.1888eb2c.png": "/my-portfolio/static/media/note.1888eb2c.png",
+    "static/media/resume.eb1badec.pdf": "/my-portfolio/static/media/resume.eb1badec.pdf",
+    "static/media/resume1.5ef82013.png": "/my-portfolio/static/media/resume1.5ef82013.png",
+    "static/media/resume2.8bfe6be2.png": "/my-portfolio/static/media/resume2.8bfe6be2.png",
+    "static/media/run.8f531147.png": "/my-portfolio/static/media/run.8f531147.png",
+    "static/media/stocks.c4d35843.png": "/my-portfolio/static/media/stocks.c4d35843.png",
+    "static/media/weather.42a16f7a.png": "/my-portfolio/static/media/weather.42a16f7a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e3f22a61.js",
+    "static/js/2.14fa4314.chunk.js",
+    "static/css/main.7112f1b7.chunk.css",
+    "static/js/main.78123c40.chunk.js"
+  ]
+}
